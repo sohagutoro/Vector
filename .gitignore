@@ -1,64 +1,21 @@
-gitignore
-# Virtual environment
-rrt_env/
-venv/
-env/
-ENV/
-
-# Python cache
+# ROS
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+*.pyc
 __pycache__/
-*.py[cod]
-*$py.class
 *.so
+*.o
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+# Модели
+models/*.stl
+models/*.obj
 
-# PyInstaller
-*.manifest
-*.spec
+# Скомпилированные файлы
+*.class
+*.exe
+*.out
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+# Системные файлы
 .DS_Store
 Thumbs.db
