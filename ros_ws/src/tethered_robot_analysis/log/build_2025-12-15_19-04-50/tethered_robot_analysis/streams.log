@@ -1,0 +1,49 @@
+[0.147s] Invoking command in '/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis': /usr/bin/cmake /mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/install/tethered_robot_analysis
+[0.198s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.200s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.201s]   contain a literal, direct call to the project() command.  Add a line of
+[0.202s]   code such as
+[0.202s] 
+[0.203s]     project(ProjectName)
+[0.205s] 
+[0.206s]   near the top of the file, but after cmake_minimum_required().
+[0.207s] 
+[0.208s]   CMake is pretending there is a "project(Project)" command on the first
+[0.209s]   line.
+[0.209s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.210s] [0m
+[0.211s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.212s]   cmake_minimum_required() should be called prior to this top-level project()
+[0.213s]   call.  Please see the cmake-commands(7) manual for usage documentation of
+[0.214s]   both commands.
+[0.215s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.219s] [0m
+[0.798s] -- The C compiler identification is GNU 13.3.0
+[1.392s] -- The CXX compiler identification is GNU 13.3.0
+[1.790s] -- Detecting C compiler ABI info
+[2.873s] -- Detecting C compiler ABI info - done
+[2.899s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.900s] -- Detecting C compile features
+[2.900s] -- Detecting C compile features - done
+[3.043s] -- Detecting CXX compiler ABI info
+[4.294s] -- Detecting CXX compiler ABI info - done
+[4.353s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.354s] -- Detecting CXX compile features
+[4.355s] -- Detecting CXX compile features - done
+[4.439s] -- Configuring done (4.2s)
+[4.576s] -- Generating done (0.1s)
+[4.617s] [33mCMake Warning:
+[4.620s]   Manually-specified variables were not used by the project:
+[4.622s] 
+[4.626s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[4.631s]     CATKIN_SYMLINK_INSTALL
+[4.633s] 
+[4.635s] [0m
+[4.939s] -- Build files have been written to: /mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis
+[4.943s] Invoked command in '/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis' returned '0': /usr/bin/cmake /mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/install/tethered_robot_analysis
+[4.950s] Invoking command in '/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis': /usr/bin/cmake --build /mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis -- -j12 -l12
+[5.010s] gmake: Warning: File 'Makefile' has modification time 5 s in the future
+[5.129s] gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 4.9 s in the future
+[5.132s] gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[5.145s] gmake: warning:  Clock skew detected.  Your build may be incomplete.
+[5.147s] Invoked command in '/mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis' returned '0': /usr/bin/cmake --build /mnt/c/Users/denis/Vector/ros_ws/src/tethered_robot_analysis/build/tethered_robot_analysis -- -j12 -l12
